@@ -1,12 +1,13 @@
 import "./App.css";
+import Content from "./components/Content.js";
 
 function App() {
   return (
     <>
-      <div>
-        <h1>Lorem</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+      <div className="bloc1">
+        <Content
+          name="Lorem"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
           porttitor aliquet risus, sed venenatis dui rutrum sed. Praesent
           ultrices feugiat felis ac volutpat. Etiam id rhoncus dui. Praesent
           porttitor massa vel massa efficitur, ac aliquet magna hendrerit. Cras
@@ -15,8 +16,14 @@ function App() {
           lacus risus, sagittis ac lobortis eget, semper ornare orci. Aenean
           vehicula lobortis nisi a laoreet. Aliquam quis dictum augue. Cras sit
           amet lacinia sem. Pellentesque porta elit at purus sollicitudin, at
-          tempor tortor vulputate.
-        </p>
+          tempor tortor vulputate."
+        />
+      </div>
+      <div className="bloc2">
+        <Content
+          name="Ipsum"
+          text="Cras sollicitudin, velit vitae vehicula laoreet, lorem sem auctor libero, nec dictum mauris justo at nisl. Nam fermentum vitae eros in sollicitudin. Aliquam sit amet nisi fermentum, elementum nisi eu, pellentesque orci. Vestibulum hendrerit nunc ut suscipit dictum. Nullam faucibus ultrices nisi, non luctus lectus scelerisque quis. Mauris nec ligula orci. Vivamus vulputate elit ac augue rhoncus, pulvinar interdum dui tincidunt. Sed molestie, nisl ut faucibus pretium, orci tellus semper risus, at accumsan sapien urna ac nunc. Praesent pellentesque lacinia odio nec facilisis. Vestibulum erat arcu, consequat eu accumsan at, elementum vitae velit. Phasellus porta congue enim, vel aliquam velit ultrices et. Praesent porta felis enim, eu laoreet urna congue pretium. Vestibulum nec fermentum ligula. Ut non sapien ac est consectetur lobortis. Sed rutrum nisl dui, nec pharetra risus laoreet ut. Aenean lobortis magna lacus, quis molestie metus rutrum sed."
+        />
       </div>
     </>
   );

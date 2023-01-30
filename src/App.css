@@ -1,32 +1,40 @@
-h1,
-p {
+.bloc1 {
+  width: 619px;
+  height: 283px;
+  background: #c4c4c4;
+}
+
+.bloc2 {
+  position: absolute;
+  width: 619px;
+  height: 392px;
+  left: 0px;
+  top: 303px;
+  background: #c4c4c4;
+}
+
+.Title,
+.Paragraph {
   font-family: "Roboto", sans-serif;
   left: 16px;
   position: absolute;
 }
-h1 {
+
+.Title {
   width: 488px;
   height: 27px;
   top: 15px;
-
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
 }
 
-p {
+.Paragraph {
   width: 587px;
   height: 204px;
   left: 16px;
   top: 67px;
-
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-}
-
-div {
-  width: 619px;
-  height: 283px;
-  background: #c4c4c4;
 }
